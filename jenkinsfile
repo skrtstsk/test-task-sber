@@ -7,9 +7,9 @@ pipeline {
                 powershell "helm repo add my-nginx https://skrtstsk.github.io/test-task-sber/"
             }
         }
-        #stage('Installing Helm Chart') {
-         #   steps {
-         #       powershell "echo 'Installing Helm Chart...'"
-         #       powershell "helm install my-nginx --generate-name"
-         #   }
-       # }
+        // stage('Installing Helm Chart') {
+         //   steps {
+         //      powershell "echo 'Installing Helm Chart...'"
+         //       powershell "helm install my-nginx --generate-name"
+         //   }
+       // }
