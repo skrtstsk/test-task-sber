@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  nginx:
+  - apiVersion: v2
+    appVersion: 1.26.0
+    created: "2024-05-06T01:08:29.7314315+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 17f9c33f76a07746f5cad8f73be810279aacd3132e5cd64b197c96fd79200baf
+    name: nginx
+    type: application
+    urls:
+    - https://github.com/skrtstsk/test-task-sber/nginx-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-05-06T01:08:29.7309133+03:00"
