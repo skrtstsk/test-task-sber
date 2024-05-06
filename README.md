@@ -1,8 +1,8 @@
 # Requirements:
-docker - https://docs.docker.com/engine/install/
-minikube - https://minikube.sigs.k8s.io/docs/start/
-kubectl - https://kubernetes.io/ru/docs/tasks/tools/install-kubectl/
-helm - https://helm.sh/docs/intro/install/
+Docker - [Docker installation](https://docs.docker.com/engine/install/)
+Minikube - [Minikube installation](https://minikube.sigs.k8s.io/docs/start/)
+Kubectl - [Kubectl installation](https://kubernetes.io/ru/docs/tasks/tools/install-kubectl/)
+Helm - [Telm installation](https://helm.sh/docs/intro/install/)
 # Start minikube
 ```
 Start a minikube:
