@@ -1,6 +1,13 @@
 pipeline {
     agent any
     stages {
+        stage('Setting Up Variables') {
+            steps {
+                powershell "echo 'Setting Up Variables...'"
+                powershell "set KUBERNETES_MASTER=http://127.0.0.1:8080"
+                powershell "set KUBECONFIG=~/.kube/config"
+            }
+        }
         stage('Updating Helm Repositories') {
             steps {
                 powershell "echo 'Updating Helm Repositories...'"
