@@ -9,6 +9,6 @@ entries:
     name: nginx
     type: application
     urls:
-    - https://github.com/skrtstsk/test-task-sber/nginx-0.1.0.tgz
+    - https://skrtstsk.github.io/test-task-sber/nginx-0.1.0.tgz
     version: 0.1.0
 generated: "2024-05-06T01:08:29.7309133+03:00"
