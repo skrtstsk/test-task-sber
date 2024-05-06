@@ -4,7 +4,7 @@ pipeline {
         stage('Download Helm Chart') {
             steps {
                 powershell "echo 'Downloading Helm Charts from Github repository...'"
-                powershell 'helm repo add my-nginx https://skrtstsk.github.io/test-task-sber/'
+                powershell 'git clone https://skrtstsk.github.io/test-task-sber/'
             }
         }
     }
