@@ -47,4 +47,7 @@ kubectl get secret --namespace jenkins my-release-jenkins -o jsonpath="{.data.je
 ```
 kubectl get deployments --all-namespaces
 ```
+![image](https://github.com/skrtstsk/test-task-sber/assets/91666235/05838231-f113-4bdd-8032-a233922c2f5b)
+
+
    
