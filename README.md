@@ -43,8 +43,8 @@ kubectl get secret --namespace jenkins my-release-jenkins -o jsonpath="{.data.je
    
 ![image](https://github.com/skrtstsk/test-task-sber/assets/91666235/f50e860e-2cbf-49be-ae32-6818d8610cf3)
 
-4. Vefify pod is running
+4. Vefify deployment is READY
 ```
-kubectl get pods
+kubectl get deployments --all-namespaces
 ```
    
