@@ -1,13 +1,13 @@
 pipeline {
     agent any
     stages {
-        stage('Update Helm Repositories') {
+        stage('Updating Helm Repositories') {
             steps {
                 powershell "echo 'Updating Helm Repositories...'"
                 powershell "helm repo update"
             }
         }
-        stage('Download Helm Chart') {
+        stage('Downloading Helm Chart') {
             steps {
                 powershell "echo 'Downloading Helm Charts from Github repository...'"
                 powershell "helm repo add test-task https://skrtstsk.github.io/test-task-sber/"
