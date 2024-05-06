@@ -1,6 +1,12 @@
 pipeline {
     agent any
     stages {
+        stage('Update Helm Repositories') {
+            steps {
+                powershell "echo 'Updating Helm Repositories...'"
+                powershell "helm repo update"
+            }
+        }
         stage('Download Helm Chart') {
             steps {
                 powershell "echo 'Downloading Helm Charts from Github repository...'"
@@ -10,7 +16,7 @@ pipeline {
         stage('Installing Helm Chart') {
             steps {
                 powershell "echo 'Installing Helm Chart...'"
-                powershell "helm install nginx-test test-task/nginx"
+                powershell "helm install my-nginx test-task/nginx"
             }
         }
     }
