@@ -16,7 +16,7 @@ pipeline {
         stage('Installing Helm Chart') {
             steps {
                 powershell "echo 'Installing Helm Chart...'"
-                powershell "helm install my-nginx test-task/nginx"
+                powershell "helm install nginx-chart test-task/nginx"
             }
         }
     }
